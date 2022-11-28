@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: Optima, sans-serif;
+}
+
+.banner
+{
+    position: relative;
+    text-align: center;
+}
+
+.banner-text
+{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: white;
+    background-color: #8A2122;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 3.5vw;
+    padding: 2% 2% 1% 2%;
+}
+
+h1
+{
+/*    font-family: Arial, sans-serif;*/
+    font-size: 25px;
+    padding: 0px 10% 0px 10%;
+}
+
+p
+{
+    padding: 0px 10% 0px 10%;
+}
+
+p red
+{
+    color:crimson;
+}
+
+a.learnmore
+{
+    text-align: middle;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 20px 15px 20px;
+    color: gold;
+    background-color: crimson;
+    transition: background-color .2s ease-out;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+a.learnmore:hover
+{
+    background-color: #8A2122;
+}
+
+.slides
+{
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+    align-items: center;
+    width: 90%;
+}

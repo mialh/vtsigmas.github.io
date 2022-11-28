@@ -1,0 +1,64 @@
+head
+{
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.dropbtn
+{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+}
+
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+    padding: 16px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+.dropdown:hover .dropbtn
+{
+    color: crimson;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a
+{
+    color: black;
+    background-color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+}
+
+.dropdown-content a:hover
+{
+    color: crimson;
+}

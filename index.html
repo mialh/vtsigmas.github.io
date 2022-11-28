@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" class="fontawesome-i2svg-active fontawesome-i2svg-complete">
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script> 
+        $(function(){
+            $("#header").load("header-2.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    
+    
+        </head><body data-new-gr-c-s-check-loaded="14.1034.0" data-gr-ext-installed=""><div id="header" style="background-color: #8A2122;"><link rel="stylesheet" type="text/css" href="css/header-2.css">
+
+<a href="index.html"><img src="media/images/syz-logo-kappa.png" class="center" style="display: block; margin-left: auto; margin-right: auto" href="index.html" width="25%"></a>
+
+<ul class="nav" align="center" style="background-color: #8A2122;">
+    <div class="dropdown">
+        <a href="index.html" class="dropbtn">HOME</a>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">ABOUT US</button>
+        <div class="dropdown-content">
+            <a href="http://www.sigmapsizeta.org.vt.edu/overview.html" class="header">OVERVIEW</a>
+            <a href="purpose.html" class="header">PURPOSE</a>
+            <a href="history.html" class="header">HISTORY</a>
+            <a href="sisterships.html" class="header">SISTERSHIPS</a>
+        </div>
+    </div>
+    
+    <div class="dropdown">
+        <a href="philanthropy.html" class="dropbtn">PHILANTHROPY</a>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">SISTERS</button>
+        <div class="dropdown-content">
+            <a href="roster.html" class="header">ROSTER</a>
+            <a href="board.html" class="header">BOARD</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">RECRUITMENT</button>
+        <div class="dropdown-content">
+            <a href="whats-recruitment.html" class="header">WHAT IS RECRUITMENT?</a>
+            <a href="recruitment-schedule.html" class="header">SCHEDULE</a>
+            <a href="faq.html" class="header">FAQs</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <a href="https://www.sigmapsizeta.org/" target="_blank" class="dropbtn">NATIONALS</a>
+    </div>
+
+</ul>
+<br></div>
+    
+    
+    
+        <div class="banner">
+            <img src="media/images/IMG_0557_cropped.jpeg" class="sized" alt="Rose" width="100%">
+            <div class="banner-text">Lead from the Front</div>
+        </div>
+        
+        <h1 style="padding-top: 50px; padding-bottom: 30px" align="center">W E L C O M E</h1>
+        
+        <p style="text-align: justify">Sigma Psi Zeta Sorority, Inc. (SYZ) is a cultural, social, educational, and community service oriented sorority. SYZ is the first Greek-lettered sorority of its kind to be established on the East Coast and is one of the largest and most distinguished Asian-interest sororities in the nation.<br><br>Kappa Charter at Virginia Tech was founded on January 7th, 2001. It all started out with 4 young women who started out as an interest group called Multi-Cultural Asian Sorority (MCAS) in 2000. Through hard work and unity, the sorority was finally recognized by the school and has been part of the Asian community here at Virginia Tech.</p>
+        
+        <br><br>
+        <div id="button" style="margin-left: 10%"><a class="learnmore" href="history.html" style="color: gold; background-color: crimson">LEARN MORE</a></div>
+        
+        <br><br><br><br>
+        <div style="max-width: 100%;" align="center">
+            <img class="slides" src="media/slideshow/IMG_0636.JPEG" style="width: 60%; display: none;">
+            <img class="slides" src="media/slideshow/IMG_0401.JPEG" style="width: 60%; display: block;">
+            <img class="slides" src="media/slideshow/IMG_0557.JPEG" style="width: 60%; display: none;">
+            <img class="slides" src="media/slideshow/IMG_0281.JPEG" style="width: 60%; display: none;">
+            <img class="slides" src="media/slideshow/IMG_0423.JPEG" style="width: 60%; display: none;">
+        </div>
+        
+        <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel()
+            {
+                var i;
+                var x = document.getElementsByClassName("slides");
+                for (i = 0; i < x.length; i++)
+                {
+                    x[i].style.display = "none";  
+                }
+                myIndex++;
+                
+                if (myIndex > x.length) {myIndex = 1}
+                x[myIndex-1].style.display = "block";
+                setTimeout(carousel, 3000); // Change image every 3 seconds
+            }
+        </script>
+   
+    
+    <footer>
+        <div id="footer"><script defer="" src="./index_files/all.js.download" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="css/footer.css">
+
+<br><br><br>
+<hr>
+<br>
+<p style="text-align: center">
+    <text class="footer" style="font-weight: bold">Sigma Psi Zeta Sorority, Inc. | Kappa Charter</text><br><br>
+
+    <a href="https://www.instagram.com/vtsigmas/" target="_blank" class="footer"></a>
+    <a href="https://www.facebook.com/vtsigmapsizeta/" target="_blank" class="footer"></a>
+    <a href="mailto:vtsigmas@gmail.com" class="footer"></a>
+    <br><br>            
+    <a href="index.html" class="footerlink">home</a> | <a href="history.html" class="footerlink">our organization</a> | 
+    <a href="philanthropy.html" class="footerlink">philanthropy</a>
+    <br>
+    <br>
+    <br>
+    <text class="footer" style="font-size: 12px">Created by Julia Tang | Maintained by Mia Hagood</text>
+</p>
+<br></div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.footerlink
+{
+    margin: 0px;
+    padding: 0px;
+    color: crimson;
+    background-color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.footerlink:hover
+{
+    text-decoration: underline;
+}
+
+hr
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.footer
+{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
